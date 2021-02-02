@@ -91,7 +91,7 @@ Resources:
           FromPort: '80'
           ToPort: '80'
           CidrIp: '0.0.0.0/0'
-        - Description: 'Inbound IPv4 SSH traffic'
+        - Description: 'Inbound IPv4 HTTPS traffic'
           IpProtocol: tcp
           FromPort: '443'
           ToPort: '443'
@@ -147,4 +147,3 @@ Resources:
       Port: 80
       Protocol: HTTP
 
-      
