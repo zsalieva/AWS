@@ -43,6 +43,9 @@ for i in volumeIDs:
                         {
                             'Key': 'TechnicalTeam',
                             'Value': 'DevOps'
+                        },{  
+                            'Key': 'Copy',
+                            'Value': 'True'
                         },
                     ]
                 },
