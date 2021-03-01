@@ -219,7 +219,7 @@ Resources:
         Type: AWS::Route53::RecordSet
         Properties:
             HostedZoneName: !Ref HostedZoneNameMain
-            Name: cluster.zukhrasalieva.com.
+            Name: sprintqa.devops.cor
             Type: CNAME
             TTL: 60
             ResourceRecords:
@@ -228,7 +228,7 @@ Resources:
         Type: AWS::Route53::RecordSet
         Properties:
             HostedZoneName: !Ref HostedZoneNameReplica
-            Name: rep.zuhrasalievatable.com.
+            Name: sprint2.devops
             Type: CNAME
             TTL: 60
             ResourceRecords:
